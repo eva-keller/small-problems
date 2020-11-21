@@ -1,0 +1,23 @@
+{
+  "name": "launchschool-small-problems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "big-room.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eva-keller/small-problems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eva-keller/small-problems/issues"
+  },
+  "homepage": "https://github.com/eva-keller/small-problems#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

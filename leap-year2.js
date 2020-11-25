@@ -4,7 +4,7 @@
 function isLeapYear(year){
     if(year % 400 === 0) {
         console.log(true);
-    }else if ( year % 4 === 0 && year % 100 === 0 && year > 1752){
+    }else if ( year % 4 === 0 && year % 100 === 0 && year > 1752){ //has to be bigger than 1752 for the condition to be true
         console.log(false);
     }else if ( year % 4 === 0 ) {
         console.log(true);

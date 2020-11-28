@@ -2,10 +2,7 @@
 //that are multiples of 3 or 5. For instance, 
 //if the supplied number is 20, the result should be 98 (3 + 5 + 6 + 9 + 10 + 12 + 15 + 18 + 20).
 //You may assume that the number passed in is an integer greater than 1.
-
-//get a number
-//make it a sequence of numbers, like an array
-//iterate through the array, 
+//a basic for loop in the function
 //if the number is divisible by 3 or 5 add it to a new variable?
 
 function multisum(number) {
@@ -23,4 +20,8 @@ multisum(3);
 multisum(5);
 multisum(10);
 multisum(20);
+<<<<<<< HEAD
 multisum(1000);cd 
+=======
+multisum(1000);
+>>>>>>> 45e7d18fc38911ce0aee864f70df0b94cb46f915

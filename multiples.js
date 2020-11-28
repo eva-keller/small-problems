@@ -23,4 +23,4 @@ multisum(3);
 multisum(5);
 multisum(10);
 multisum(20);
-multisum(1000);
+multisum(1000);cd 

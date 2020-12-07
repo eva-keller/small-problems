@@ -1,3 +1,8 @@
-//Write code that capitalizes the words in the string 'launch school tech & talk', 
-//so that you get the string 'Launch School Tech & Talk'.
-let str = 'launch school tech & talk'
+let words = ['spray', 'limit', 'exuberant', 'destruction','elite', 'present']
+
+const modifiedWords = words.filter( (word, index, arr) => {
+  arr[index+1] +=' extra'
+  return word.length < 6
+})
+
+console.log(modifiedWords);
